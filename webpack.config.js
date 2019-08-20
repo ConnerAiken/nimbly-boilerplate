@@ -47,9 +47,6 @@ module.exports = {
 		new MiniCssExtractPlugin({
 		  filename: '[name].css',
 		  chunkFilename: '[id].css',
-		}),
-		new CopyPlugin([
-		  { from: './src/assets/js/nimbly-bundle.js', to: './nimbly-bundle.js' }, 
-		]),
+		}), 
 	]
 }
