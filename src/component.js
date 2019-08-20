@@ -1,4 +1,6 @@
 import "./component.scss";
+var ObservableSlim = require('observable-slim');
+var Nimbly = require('nimbly'); 
 
 export default class Component extends Nimbly { 
 

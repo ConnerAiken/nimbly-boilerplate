@@ -1,7 +1,5 @@
 // Import project dependencies
-import $ from 'jquery'; 
-import ObservableSlim from 'observable-slim';
-import Nimbly from 'nimbly';
+import $ from 'jquery';  
 
 // Import T4Med components
 import Component from './component.js'; 
